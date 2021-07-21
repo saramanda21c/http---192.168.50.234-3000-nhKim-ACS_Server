@@ -1,0 +1,23 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.50.195:3306/TestMCS?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: admin    
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: test
+    password: test 
+
+
+
+logging:
+  level:
+    '[org.hibernate.sql]': debug
+    '[org.hibernate.type]': trace
+
