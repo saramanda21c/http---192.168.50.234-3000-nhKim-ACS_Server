@@ -1,4 +1,4 @@
-package com.shi.acsserver.service.Message.Socket;
+package com.shi.acsserver.service.message.socket;
 
 import java.io.IOException;
 import java.util.List;

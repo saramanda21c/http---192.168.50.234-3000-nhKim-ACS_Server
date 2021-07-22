@@ -1,6 +1,6 @@
-package com.shi.acsserver.service.Message.Rabbit;
+package com.shi.acsserver.service.message.rabbit;
 
-import com.shi.acsserver.service.Message.IMessageListener;
+import com.shi.acsserver.service.message.IMessageListener;
 
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

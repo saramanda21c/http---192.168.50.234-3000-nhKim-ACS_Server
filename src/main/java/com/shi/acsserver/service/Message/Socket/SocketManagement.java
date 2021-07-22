@@ -1,4 +1,4 @@
-package com.shi.acsserver.service.Message.Socket;
+package com.shi.acsserver.service.message.socket;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.shi.acsserver.service.Message;
+package com.shi.acsserver.service.message;
 
 import org.springframework.amqp.core.Message;
 

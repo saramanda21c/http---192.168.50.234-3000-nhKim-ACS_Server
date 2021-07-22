@@ -1,4 +1,4 @@
-package com.shi.acsserver.service.Message.Socket;
+package com.shi.acsserver.service.message.socket;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,8 +9,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import com.shi.acsserver.config.RabbitMqConfig;
-import com.shi.acsserver.service.Message.IMessageProducer;
-import com.shi.acsserver.service.Message.Rabbit.MessageProducer;
+import com.shi.acsserver.service.message.IMessageProducer;
+import com.shi.acsserver.service.message.rabbit.MessageProducer;
 
 import lombok.extern.slf4j.Slf4j;
 

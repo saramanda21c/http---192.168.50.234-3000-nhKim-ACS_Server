@@ -3,8 +3,8 @@ package com.shi.acsserver.controller;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import com.shi.acsserver.service.Message.Rabbit.MessageListener;
-import com.shi.acsserver.service.Message.Rabbit.MessageProducer;
+import com.shi.acsserver.service.message.rabbit.MessageListener;
+import com.shi.acsserver.service.message.rabbit.MessageProducer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

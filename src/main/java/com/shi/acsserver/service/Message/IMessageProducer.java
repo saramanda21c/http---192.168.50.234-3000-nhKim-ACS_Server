@@ -1,4 +1,4 @@
-package com.shi.acsserver.service.Message;
+package com.shi.acsserver.service.message;
 
 public interface IMessageProducer {
     

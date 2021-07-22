@@ -1,6 +1,6 @@
-package com.shi.acsserver.service.Message.Rabbit;
+package com.shi.acsserver.service.message.rabbit;
 
-import com.shi.acsserver.service.Message.IMessageProducer;
+import com.shi.acsserver.service.message.IMessageProducer;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
